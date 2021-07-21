@@ -1,0 +1,7 @@
+id=MuXinEnablePixelChinaForVoLTE
+name=Pixel Enabler China  For VoTEL
+version=v0.1
+versionCode=1
+author=MuXin
+description=This module will modify mbn_sw.txt to enable VoLTE for Chinese Operators . Theoretical support for all Pixel models and Android versions 
+minMagisk=1500

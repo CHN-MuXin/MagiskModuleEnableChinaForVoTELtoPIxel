@@ -1,0 +1,18 @@
+# This file will be read by resetprop
+# Example: Change dpi
+# ro.sf.lcd_density=320
+# New Add
+ro.mtk_ims_support=1
+ro.mtk_volte_support=1
+persist.mtk.volte.enable=1
+persist.dbg.volte_avail_ovr=1
+# Debug Options
+persist.dbg.ims_volte_enable=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+# Radio Options
+persist.radio.rat_on=combine
+persist.radio.data_ltd_sys_ind=1
+persist.radio.data_con_rprt=1
+persist.radio.calls.on.ims=1
