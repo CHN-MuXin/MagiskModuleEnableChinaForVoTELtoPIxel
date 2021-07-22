@@ -37,6 +37,12 @@ find "$SY" -name '*.mbn' 2>&1  | grep -oi "mcfg_sw/.*/Commercial/.*\.mbn" > "$MS
 
 # Set perm
 set_perm_recursive "$MODPATH" 0 0 0755 0644
+
+# Clean fdr
+ui_print "- Removing /data/vendor/modem_fdr/fdr_check"
+ui_print "- 删除 /data/vendor/modem_fdr/fdr_check"
+rm /data/vendor/modem_fdr/fdr_check
+
 ui_print "- The installation is complete !"
 ui_print "- 安装完成!"
 ui_print "- Welcome to Pixel Enabler China  For VoTEL version Module!"
