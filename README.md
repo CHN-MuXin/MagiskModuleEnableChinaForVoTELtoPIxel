@@ -1,4 +1,4 @@
-# Magisk Module Pixel Enabler China For VoTEL
+# Magisk Module Template
 
 ## Description
 

@@ -20,11 +20,6 @@ ui_print "- 开始安装"
 
 DEVICE=`getprop ro.product.system.brand`
 
-if [ $DEVICE != "google" ]; then
-  ui_print "=>不支持的品牌，如果要强制安装可在github下载Releases版"
-  abort " => Device '"$DEVICE"' is not supported yet，If you want to force the installation, please go to github to download the release version "
-fi
-
 # Extract Files
 ui_print "- Extracting module files"
 ui_print "- 导出模块文件"
