@@ -1,18 +1,34 @@
-# This file will be read by resetprop
-# Example: Change dpi
-# ro.sf.lcd_density=320
-# New Add
+# IMS/VoLTE/VoNR 基本支持
 ro.mtk_ims_support=1
 ro.mtk_volte_support=1
 persist.mtk.volte.enable=1
-persist.dbg.volte_avail_ovr=1
-# Debug Options
 persist.dbg.ims_volte_enable=1
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
-# Radio Options
+
+# VoLTE/VoNR 支持
+persist.radio.nr.volte=1
+persist.radio.volte_enabled=1
+persist.radio.imsregistered=1
+persist.radio.calls.on.ims=1
+
+# 5G VoNR 专属配置
+persist.vendor.radio.vonr_enabled=1
+persist.vendor.radio.vonr_enabled_0=1
+persist.vendor.radio.vonr_enabled_1=1
+
+# 数据/网络优化
 persist.radio.rat_on=combine
 persist.radio.data_ltd_sys_ind=1
 persist.radio.data_con_rprt=1
-persist.radio.calls.on.ims=1
+persist.sys.cust.lte_config=true
+
+# APN 编辑权限
+persist.radio.user.edit.apn=1
+persist.dbg.allow_apn_edit=1
+
+# IWLAN / Wi-Fi Calling 配置
+persist.dbg.wfc_avail_ovr=1
+persist.data.iwlan.enable=true
+persist.data.iwlan=1
